@@ -14,7 +14,7 @@ function App() {
         <p>
           Snir <code>src/App.js</code> this and save to reload.
         </p>
-        <Carousel/>
+        <Carousel className="Carousel-Tag" style={{ margin: 'center' }}/>
 
         
     </div>  

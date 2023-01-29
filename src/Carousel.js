@@ -20,6 +20,22 @@ function Carousel() {
         {
             type: "Pic4",
             image: require("./Pictures/Pic4.jpg")
+        },
+        {
+            type: "Pic5"
+            
+        },
+        {
+          type: "Pic6"
+          
+        },
+        {
+          type: "Pic6"
+          
+        },
+        {
+          type: "Pic6"
+          
         }
   ]
 
@@ -31,13 +47,15 @@ function Carousel() {
         style={{
           display: 'flex',
           overflow: 'auto',
-          scrollSnapType: 'x mandatory'
+          scrollSnapType: 'x mandatory',
+          width: '1000px'
+          
         }}
       >
         {photos.map((_, i) => (
           <li
             style={{
-              backgroundColor: 'aqua',
+              backgroundColor: '#ff0000',
               fontSize: '50px',
               width: '250px',
               height: '250px',
@@ -45,10 +63,13 @@ function Carousel() {
               color: '#fff',
               display: 'flex',
               justifyContent: 'center',
-              alignItems: 'center'
+              alignItems: 'center',
+              overflow: 'hidden',
+              margin: 'auto',
+              
             }}
           >
-            <img src={_.image}/>
+            <img src={_.image} style={{ width: "300px", height: "300px" }}/>
           </li>
         ))}
       </ul>
