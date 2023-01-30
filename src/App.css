@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image:linear-gradient( #172644, rgb(233, 21, 215));
+  background-image:linear-gradient( #86d9ff, rgb(55, 167, 187), rgb(41, 125, 180));
 }
 
 .App-logo {
@@ -23,7 +23,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(253, 12, 12);
+  color: rgb(69, 0, 148);
 }
 
 .App-link {
