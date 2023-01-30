@@ -41,6 +41,7 @@ function Carousel() {
 
   
   return (
+    
     <>
       <ul
         ref={scrollRef}
@@ -87,8 +88,10 @@ function Carousel() {
             >
               {i + 1}
             </button>
+            
           </li>
         ))}
+        
       </ol>
     </>
   );
