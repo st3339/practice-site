@@ -56,7 +56,7 @@ function Carousel() {
         {photos.map((_, i) => (
           <li
             style={{
-              backgroundColor: '#ff0000',
+              backgroundColor: '#000099',
               fontSize: '50px',
               width: '250px',
               height: '250px',
@@ -70,7 +70,7 @@ function Carousel() {
               
             }}
           >
-            <img src={_.image} style={{ width: "300px", height: "300px" }}/>
+            <img alt='' src={_.image} style={{ width: "300px", height: "300px" }}/>
           </li>
         ))}
       </ul>
