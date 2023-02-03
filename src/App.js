@@ -14,6 +14,11 @@ function App() {
       <header className="App-header">
       <div class="btn-group">
         <button class="button">Home</button>
+        <div class="content1">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>  
+        </div>
         <button class="button">About me</button>
         <button class="button">My Experience</button>
         <button class="button">Button</button>
